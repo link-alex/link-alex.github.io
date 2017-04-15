@@ -4,7 +4,7 @@
       <div class="footer-col footer-col-4">
           <p>&copy; {{ site.time | date: '%Y' }} All rights reserved.</p>
           {% for item in site.social_media %}
-              <span>
+              <span class="footer-media-item">
                 <a href="{{ item.link }}">
                     <img src="{{ site.baseurl }}public/img/{{ item.img }}"/>
                 </a>
