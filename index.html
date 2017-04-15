@@ -15,7 +15,7 @@ title: Home
 
 {% for post in site.categories.content %}
 
-    {% assign currentdate = post.date | date: "%d.%m.%Y" %}
+    {% assign currentdate = post.date | date: '%B %d, %Y' %}
 
     <div>
         <span class="title">
