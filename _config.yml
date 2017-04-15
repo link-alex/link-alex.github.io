@@ -9,13 +9,13 @@ url:                "http://alexmanzhula.info"
 
 social_media:
   - link: https://www.linkedin.com/in/aliaksandr-manzhula-a8338786
-    img: linkedin32.png
+    img: linkedin.png
   - link: https://github.com/link-alex
-    img: github32.png
-  - link: https://twitter.com/link__alex
-    img: twitter32.png
+    img: github.png
+  - link: https://facebook.com/a.manzhula
+    img: facebook.png
   - link: mailto::manzhula.alex@gmail.com
-    img: gmail32.png
+    img: gmail.png
 
 
 # Build settings
