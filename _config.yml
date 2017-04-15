@@ -1,23 +1,21 @@
 
 title:              '@alexmanzhula'
+author:             Alex Manzhula
 email:              manzhula.alex@gmail.com
-
-description:        Some.. coding stuff?
 
 permalink:          pretty
 baseurl:            /
 url:                "http://alexmanzhula.info"
 
 social_media:
-  - username: link-alex
-    link: https://github.com/link-alex
-    img: github.png
-  - username: link__alex
-    link: https://twitter.com/link__alex
-    img: twitter.png
-  - username: alex manzhula
-    link: https://www.linkedin.com/in/aliaksandr-manzhula-a8338786
-    img: linkedin.png
+  - link: https://www.linkedin.com/in/aliaksandr-manzhula-a8338786
+    img: linkedin32.png
+  - link: https://github.com/link-alex
+    img: github32.png
+  - link: https://twitter.com/link__alex
+    img: twitter32.png
+  - link: mailto::manzhula.alex@gmail.com
+    img: gmail32.png
 
 
 # Build settings

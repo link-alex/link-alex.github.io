@@ -3,12 +3,20 @@ layout: default
 title: Home
 ---
 
+<h3>Hi ${username},</h3>
+<p>I am a JavaScript Developer at
+    <a href="http://epam.com" rel="external">EPAM Systems</a>
+    from
+    <a href="http://www.belarus.by/en/about-belarus/geography/minskcity" rel="external">Minsk, Belarus</a>.
+</p>
+<p>Here you will find some notes on different software engineering topics.</p>
+
 <h2>Posts</h2>
 
 {% for post in site.categories.content %}
 
-
     {% assign currentdate = post.date | date: "%d.%m.%Y" %}
+
     <div>
         <span class="title">
             <a href="{{ post.url }}">

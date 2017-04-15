@@ -1,32 +1,15 @@
 <footer class="site-footer">
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-             {{ site.title }}
-          </li>
-          <li>
-             <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-
-            {% for item in site.social_media %}
-                <li>
-                  <a href="{{ item.link }}">
-                      <img src="{{ site.baseurl }}public/img/{{ item.img }}"/>
-                      <span class="username">{{ item.username }}</span>
-                  </a>
-                </li>
-            {% endfor %}
-
-        </ul>
-      </div>
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="footer-col footer-col-4">
+          <p>&copy; {{ site.time | date: '%Y' }} All rights reserved.</p>
+          {% for item in site.social_media %}
+              <span>
+                <a href="{{ item.link }}">
+                    <img src="{{ site.baseurl }}public/img/{{ item.img }}"/>
+                </a>
+            </span>
+          {% endfor %}
       </div>
     </div>
   </div>
