@@ -13,18 +13,16 @@
       </div>
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">
-                <img src="{{ site.baseurl }}public/img/github.png"/>
-                <span class="username">{{ site.github_username }}</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-                <img src="{{ site.baseurl }}public/img/twitter.png"/>
-                <span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
+
+            {% for item in site.social_media %}
+                <li>
+                  <a href="{{ item.link }}">
+                      <img src="{{ site.baseurl }}public/img/{{ item.img }}"/>
+                      <span class="username">{{ item.username }}</span>
+                  </a>
+                </li>
+            {% endfor %}
+
         </ul>
       </div>
       <div class="footer-col footer-col-3">
