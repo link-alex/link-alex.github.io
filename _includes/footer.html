@@ -2,7 +2,6 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-4">
-          <p>&copy; {{ site.time | date: '%Y' }} All rights reserved.</p>
           {% for item in site.social_media %}
               <span class="footer-media-item">
                 <a href="{{ item.link }}" target="_blank">
@@ -10,6 +9,9 @@
                 </a>
             </span>
           {% endfor %}
+      </div>
+      <div class="footer-col footer-copyright">
+        <p>&copy; {{ site.time | date: '%Y' }} All rights reserved.</p>
       </div>
     </div>
   </div>

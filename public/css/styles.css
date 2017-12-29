@@ -3,6 +3,10 @@
   padding-right: 7px;
 }
 
+.footer-copyright {
+  float: right;
+}
+
 a:hover {
   text-decoration: none;
 }
