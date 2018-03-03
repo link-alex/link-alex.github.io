@@ -10,3 +10,8 @@
 a:hover {
   text-decoration: none;
 }
+
+.footer-media-item img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
