@@ -1,12 +1,12 @@
 
-title:              '@link-alex'
+title:              '@link_alex'
 author:             Alex Manzhula
 email:              manzhula.alex@gmail.com
 construction_year:  2017
 
 permalink:          pretty
 baseurl:            /
-url:                "http://alexmanzhula.info"
+url:                "https://alexmanzhula.info"
 
 social_media:
   - link: https://www.linkedin.com/in/aliaksandr-manzhula-a8338786
